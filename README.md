@@ -1,11 +1,11 @@
-About django-simple-captcha
-===========================
+About django-simple-captcha-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-simple-captcha-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mbi/django-simple-captcha
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-simple-captcha-feedstock/blob/main/LICENSE.txt)
 
 Summary: Django application to add captcha images to any Django form.
 
