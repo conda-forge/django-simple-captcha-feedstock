@@ -1,5 +1,5 @@
 {% set name = "django-simple-captcha" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 24db2bd1386c1833618465862e3518d310246d88f5e7f3bec23a5bda768ef834
+  sha256: 6d295dac7213946631b88783b420e58d5d67bf2ff1c9704ac57986323e23bbef
 
 build:
   noarch: python
