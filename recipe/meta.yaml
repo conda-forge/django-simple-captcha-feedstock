@@ -1,13 +1,13 @@
 {% set name = "django-simple-captcha" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: f2a9178d04667ebc32481ffbfbe405ec1ae4c2d30f4d2975a7e0a8de26261c1f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 0e6007a34da509c625895e2d2e3b64953d1bffca6baa38f44e5436ce78d721ba
 
 build:
   noarch: python
